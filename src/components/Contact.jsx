@@ -32,17 +32,22 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
+
+    
+    
+    
+
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_lm1bcru',
+        'template_mq9i3dx',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Dileepa praveen",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "dileepapraveen32@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'SVjddL5Cxdpbpsrmt'
       )
       .then(
         () => {
@@ -125,7 +130,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[500px] h-[300px]'
       >
         <EarthCanvas />
       </motion.div>

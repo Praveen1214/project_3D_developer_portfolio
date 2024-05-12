@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import cup from "./cup.png";
+import insta from "./insta.png";
+import linkdin from "./linkdin.png";
+import herobg from "./herobg.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +24,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import android from "./tech/android.png"
+import java from "./tech/java.png"
+import bootstrap from "./tech/bootstrap.png"
+import kotline from "./tech/kotline.png"
+import sushiman from "./sushiman.png"
+import primeroom from "./primeroom.png"
+import  evnify from "./evnify.png"
+import medicare from "./medicare.jpeg"
+import boxtime from "./boxtime.png"
+import portfolio from "./portfolio.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +73,18 @@ export {
   carrent,
   jobit,
   tripguide,
+  android,
+  java,
+  bootstrap,
+  kotline,
+  sushiman,
+  primeroom,
+  evnify,
+  medicare,
+  boxtime,
+  cup,
+  insta,
+  linkdin,
+  herobg,
+  portfolio
 };

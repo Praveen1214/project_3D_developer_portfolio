@@ -23,6 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+  android,
+  java,
+  bootstrap,
+  kotline,
+  evnify,
+  sushiman ,
+  primeroom,
+  medicare,
+  boxtime,
+  github,
+  insta,
+  linkdin,
+  portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +44,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -40,13 +53,16 @@ export const navLinks = [
   },
 ];
 
+
+
+
 const services = [
   {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Developer",
     icon: mobile,
   },
   {
@@ -73,20 +89,20 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Android",
+    icon: android,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -109,8 +125,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Kotline",
+    icon: kotline,
   },
 ];
 
@@ -198,37 +214,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Evnify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Introducing an all-inclusive event management system. Developed as a part of the IT Project for SLIIT's 2nd year 2nd semester,React for dynamic user interfaces, Node.js and Express for robust backend functionality, and MongoDB for data storage and Management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: evnify,
+    source_code_link: "https://github.com/Scar1109/evnify",
   },
   {
-    name: "Job IT",
+    name: "Sushi-japan-resturent",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Sushi Japan Restaurant website, a personal project crafted with passion and dedication using HTML and CSS. Dive into the world of authentic Japanese cuisine with our meticulously designed online platform, offering a seamless user experience and captivating visuals.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
@@ -236,28 +257,93 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sushiman,
+    source_code_link: "https://github.com/Praveen1214/Sushi-japan-resturent",
   },
   {
-    name: "Trip Guide",
+    name: "MediCare",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "web application, during the first-year, first-semester at SLIIT. Crafted with dedication and expertise, this platform embodies our commitment to learning and creativity, leveraging HTML, CSS, and PHP to deliver a seamless user experience and robust backend functionality.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+
+
     ],
-    image: tripguide,
+    image: medicare,
+    source_code_link: "https://github.com/",
+  },
+
+
+  {
+    name: "Boxtime",
+    description:
+      "BoxTime, your ultimate companion for efficient homework management on the go. Developed using Kotlin for Android, this innovative software empowers students to stay organized, focused, and on top of their academic responsibilities like never before.they can self Evaluate thire progress",
+    tags: [
+      {
+        name: "Kotline",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: boxtime,
+    source_code_link: "https://github.com/Scar1109/evnify",
+  },
+  {
+    name: "Primerooms",
+    description:
+      "The project is a room reservation system, allows customers to search for and book rooms, and sellers to manage their inventory and promote their rooms. The project includes  Register, Book Now, Add rooms, seller Register, Blog create by seller, feedback create and Service create by seller,",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: primeroom,
+    source_code_link: "https://github.com/Praveen1214/Primeroom-Rooms-Reservation-System",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "thisis my self-projects. Among them, you'll discover an exploration into the synergy of Vite.js and Three.js, where I've leveraged the power of Vite.js's lightning-fast build tooling and Three.js's dynamic 3D rendering capabilities to create immersive digital experiences.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vitejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "taildwincss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
     source_code_link: "https://github.com/",
   },
 ];
