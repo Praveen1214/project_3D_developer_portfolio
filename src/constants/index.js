@@ -35,7 +35,12 @@ import {
   github,
   insta,
   linkdin,
-  portfolio
+  portfolio,
+  brickbreak,
+  grp
+
+  
+  
 } from "../assets";
 
 export const navLinks = [
@@ -44,8 +49,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "Project",
-    title: "Project",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -212,6 +217,20 @@ const testimonials = [
   },
 ];
 
+const content = [
+  {
+    name: "Project Help Group",
+    description:
+      "Project Help Group is a platform that connects with tech enthuastisc to help them with their projects. regularly i create contnet for them in sinhala language.",
+
+      image: grp,
+    source_code_link: "https://www.facebook.com/share/iT4KCBQYLjhxwhFU/?mibextid=K35XfP",
+  },
+
+
+]
+  
+
 const projects = [
   {
     name: "Evnify",
@@ -281,7 +300,7 @@ const projects = [
 
     ],
     image: medicare,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Praveen1214/Health-Care",
   },
 
 
@@ -297,7 +316,7 @@ const projects = [
       
     ],
     image: boxtime,
-    source_code_link: "https://github.com/Scar1109/evnify",
+    source_code_link: "https://github.com/Praveen1214/MAD",
   },
   {
     name: "Primerooms",
@@ -346,6 +365,21 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/",
   },
+
+  {
+    name: "Brick Break",
+    description:
+      "I have developed a classic Brick Break game as part of my 2nd-year Mobile Application Development module project at SLIIT. Implemented in Kotlin, this game focuses on user interaction and gameplay mechanics. I have integrated smooth controls and captivating graphics to enhance the user experience.",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+     
+    ],
+    image: brickbreak,
+    source_code_link: "https://github.com/Praveen1214/Brick_Break",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects,content };

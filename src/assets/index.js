@@ -34,6 +34,10 @@ import  evnify from "./evnify.png"
 import medicare from "./medicare.jpeg"
 import boxtime from "./boxtime.png"
 import portfolio from "./portfolio.png"
+import brickbreak from "./brickbreak.webp"
+import grp from "./grp.png"
+import githubw from "./githubw.png";
+import eye from "./eye.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -86,5 +90,10 @@ export {
   insta,
   linkdin,
   herobg,
-  portfolio
+  portfolio,
+  brickbreak,
+  grp,
+  githubw,
+  eye,
+
 };

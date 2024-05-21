@@ -8,19 +8,16 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Mycontent
+
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-
       <Navbar />
 
-      <div className='relative z-0'>
-      <Hero/>
-      <StarsCanvas />
-
-      </div>
+      <Hero />
 
       <About />
 
@@ -30,6 +27,7 @@ const App = () => {
       </div>
       <Works />
 
+    <Mycontent/>
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />

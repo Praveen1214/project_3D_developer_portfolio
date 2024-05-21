@@ -13,6 +13,8 @@
   color-scheme: dark;
 }
 
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -201,4 +203,62 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+
+  
 }
+
+/* Ensure the parent container is displayed properly */
+#projects {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+
+/* Example responsive styling for project cards */
+@media (max-width: 768px) {
+  .bg-gray-900 {
+    padding: 20px;
+    margin-top: 20px;
+
+  }
+
+  .text-24px {
+    font-size: 20px; 
+    padding-left: 10px;
+  }
+
+  .text-14px {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+}
+
+/* Additional adjustments for better layout on mobile */
+@media (max-width: 640px) {
+  .flex-wrap {
+    flex-direction: row;
+    padding:0 20px;
+    
+    
+  }
+
+  .sm\:w-\[360px\] {
+    width: 100%; /* Ensure full width on small screens */
+  }
+
+  .p-5 {
+    padding: 5px; /* Reduce padding on smaller screens */
+  }
+
+  .mt-20 {
+    margin-top: 10px; /* Reduce margin on smaller screens */
+  }
+
+  .gap-7 {
+    gap: 5px; /* Reduce gap between project cards on smaller screens */
+  }
+}
+
+
+

@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-10`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#7cf3cc]" />
@@ -31,13 +31,18 @@ const Hero = () => {
             Crafting Tomorrow's Innovations !
           </p>
 
-          <button
-            type="button"
-            style={{ marginTop: "3.5rem" }}
-            className="py-2 px-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white text-center cursor-pointer rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+          <a
+            href="/CV - Dileepa praveen.pdf" 
+            download="CV - Dileepa praveen.pdf"
+            className="inline-block mt-10"
           >
-            Download CV
-          </button>
+            <button
+              type="button"
+              className="py-2 px-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white text-center cursor-pointer rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            >
+              Download CV
+            </button>
+          </a>
         </div>
 
 <div className="hidden sm:flex flex-col justify-center items-center mx-5 ml-20">
