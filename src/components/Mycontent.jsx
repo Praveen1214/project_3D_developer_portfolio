@@ -20,7 +20,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("left", "spring", index * 1, 0.75)}>
       <Tilt
         options={{
-          max: 5,
+          max: 0.5,
           scale: 1,
           speed: 150,
         }}
